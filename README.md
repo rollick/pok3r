@@ -17,12 +17,12 @@ appreciated.
 
 The LED color signals the current key layer
 
-| Layer | Key dance |
-| --- | --- |
-| Layer 1 switch to it with |  `FN + m` |
-| Layer 2 (blue LED), switch to it with |  `FN + ,<` |
-| Layer 3 (red LED), switch with | `FN + .>` |
-| Layer 4 (puple LED), switch with | `FN + /?` |
+| Layer | Color   | Key dance   |
+| ---     | ---   | ---         |
+| Layer 1 |       | `FN + m`    |
+| Layer 2 | bue   | `FN + ,<`   |
+| Layer 3 | red   | `FN + .>`   |
+| Layer 4 | puple | `FN + /?` |
 
 
 ## Programming of layers 2-4:
