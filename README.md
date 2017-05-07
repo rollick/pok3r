@@ -58,7 +58,18 @@ Below follows a few remappings that are generally usefull.
 
 ## <a name="common_bindings"></a>Common key bindings
 
-### CapsLock always as Ctrl:
+I use zsh in vim mode in the terminal, with any PyCharm, spacemancs, and vim.
+So I want vim keybindings everywhere. To support this I map:
+
+* capslock to Ctrl
+* map the arrow keys (Printed on the jkli keys) to the standard hjkl keys
+* map the `FN` key to Left Control (bottom leftmost key) to allow arrow keys in things
+  Like PyCharm.
+
+
+### CapsLock always as Ctrl
+
+Follow from left to right
 
 | Start | Current   | New Key  | Program | Stop |
 | -- | ---  | ---     | ---      | ---     |
