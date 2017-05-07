@@ -20,14 +20,15 @@ appreciated.
 
 ## Switching Layers
 
-The LED color signals the current key layer
+The LED color signals the current key layer. The keys on the key dance are
+those printed on the key on top
 
 | Layer | Color   | Key dance   |
 | ---     | ---   | ---         |
-| Layer 1 |       | `FN + m`    |
-| Layer 2 | bue   | `FN + ,<`   |
-| Layer 3 | red   | `FN + .>`   |
-| Layer 4 | purple | `FN + /?` |
+| Layer 1 |       | `FN + M`    |
+| Layer 2 | bue   | `FN + <`   |
+| Layer 3 | red   | `FN + >`   |
+| Layer 4 | purple | `FN + ?` |
 
 
 ## Programming of layers
@@ -45,20 +46,24 @@ The general recipe is as follows:
 | 4    |  `PN` | | second LED will blink while programming |
 | 5    |  `FN + R_Ctrl`  | to exit programming  | second LED extinguishes |
 
-Say I want to map key 'i' on Layer 2 (Blue) to type my bank password, because
+Say I want to map key `i` on Layer 2 (Blue) to type my bank password, because
 that is a very smart thing to do, I would type the following:
 
-`FN + R_Ctl` i PlzSteelMyMoney `PN` `FN + R_Ctl
+`FN + R_Ctl` i PlzStealMyMoney `PN` `FN + R_Ctl`
 
+Now, when Layer 2 is active (The blue led is lit) and I hit `i`, the keyboard
+types `PlzStealMyMoney`.
+
+Below follows a few remappings that are generally usefull.
 
 ## <a name="common_bindings"></a>Common key bindings
 
 ### CapsLock always as Ctrl:
 
-| Current   | New Key  | Program |
-| ---       | ---      | ---     |
-| `CapsLock` | `L_Ctrl` | `PN` |
-| `FN + CapsLock` | `L_Ctrl` | `PN` |
+| Start | Current   | New Key  | Program | Stop |
+| -- | ---  | ---     | ---      | ---     |
+| `FN + R_Ctrl` | `CapsLock`      | `L_Ctrl` | `PN` | `FN + R_Ctrl` |
+| `FN + R_Ctrl` | `FN + CapsLock` | `L_Ctrl` | `PN` | `FN + R_Ctrl` |
 
 ### Home
 
