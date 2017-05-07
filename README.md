@@ -2,7 +2,8 @@
 
 ## General POK3R programming info
 
-
+| Action | Key dance |
+| --- | --- |
 | Factory reset | Hold both the left and right `ALT` keys |
 | Reset selected layer only |  `FN + R` until LED under spacebar stops flashing |
 
@@ -12,6 +13,8 @@
 
 The LED color signals the current key layer
 
+| Layer | Key dance |
+| --- | --- |
 | Layer 1 switch to it with |  `FN + m` |
 | Layer 2 (blue LED), switch to it with |  `FN + ,<` |
 | Layer 3 (red LED), switch with | `FN + .>` |
