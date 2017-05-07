@@ -4,7 +4,7 @@ Here are notes on how to program your Pok3r keyboard.
 
 You will find general instructions first and then more specific recipies after that.
 
-## General POK3R programming
+## General
 
 
 | Action | Key dance |
@@ -13,8 +13,8 @@ You will find general instructions first and then more specific recipies after t
 | Reset selected layer only |  `FN + R` until LED under spacebar stops flashing |
 
 The [POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf) tells all, below is
-a reflow of that, and the original [David Jeni
-repo](https://github.com/davidjenni/pok3r-layouts) this was forked from. Review
+a reflow of that and the original [David Jeni
+repo](https://github.com/davidjenni/pok3r-layouts) this repo was forked from. Review
 those if anything here is wrong or unclear. Also submit a PR, that would be
 appreciated.
 
@@ -45,6 +45,10 @@ The general recipe is as follows:
 | 4    |  `PN` | | second LED will blink while programming |
 | 5    |  `FN + R_Ctrl`  | to exit programming  | second LED extinguishes |
 
+Say I want to map key 'i' on Layer 2 (Blue) to type my bank password, because
+that is a very smart thing to do, I would type the following:
+
+`FN + R_Ctl` i PlzSteelMyMoney `PN` `FN + R_Ctl
 
 
 ## <a name="common_bindings"></a>Common key bindings
