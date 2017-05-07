@@ -27,13 +27,18 @@ The LED color signals the current key layer
 
 ## Programming of layers 2-4:
 
-Default layer cannot be programmed
+The default layer cannot be programmed. During programming, use the keys as
+labelled on the keyboard, irrespective of any reassignments.
 
+The general recipe is as follows:
 
-* `FN + R_Ctrl`  (use `L_Ctrl` if `FN` has been reassigned already) -> second LED under space bar is now lit
-* hit `target key`, then: `new content` (can be up to 32 char), then: `PN` (second LED will blink while programming)
-* `FN + R_Ctrl` to exit programming -> second LED extinguishes
-* During programming, use the keys as labelled on the keyboard, irrespective of any reassignments
+| Step | Key Dance | Notes | Visual Feedback |
+| ---- | --------- | ------| ----------------|
+| 1    | `FN + R_Ctrl`  | use `L_Ctrl` if `FN` has been reassigned already | second LED under space bar is now lit |
+| 2    |  `target key` | | |
+| 3    |  `new content` | can be up to 32 char | |
+| 4    |  `PN` | | second LED will blink while programming |
+| 5    |  `FN + R_Ctrl`  | to exit programming  | second LED extinguishes |
 
 ## Layer 2 (Blue) for Windows:
 `FN + ,<` to switch to Layer 2
