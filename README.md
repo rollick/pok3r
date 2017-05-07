@@ -1,18 +1,28 @@
-# POK3R keyboard layouts for Windows and OSX
-For those who don't know what a POK3R keyboard is, this is a decent [review](https://www.youtube.com/watch?v=8wjW-Or1jg8).
-Multiple sources to buy, e.g. [amazon](http://smile.amazon.com/Mechanical-Keyboard-Keycaps-Cherry-Mx-Blue/dp/B00OFM51L2/), [mechanicalkeyboards.com](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=1233)
-
-The following layers are used in either OS:
-* Windows: Layer 2 (blue LED), switch to it with: `FN + ,<`
-* OSX: Layer 3 (red LED), switch with: `FN + .>`
+# POK3R keyboard programming
 
 ## General POK3R programming info
-* [POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf); Vortex keeps shifting their URLs, so local copy (thanks @couto, @josephfusco)
-* Factory reset: Hold both the left and right `ALT` keys
-* Reset selected layer only: `FN + R` until LED under spacebar stops flashing
 
-### Programming of layers 2-4:
-* Default layer cannot be programmed
+
+| Factory reset | Hold both the left and right `ALT` keys |
+| Reset selected layer only |  `FN + R` until LED under spacebar stops flashing |
+
+[POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf)
+
+## Layers 
+
+The LED color signals the current key layer
+
+| Layer 1 switch to it with |  `FN + m` |
+| Layer 2 (blue LED), switch to it with |  `FN + ,<` |
+| Layer 3 (red LED), switch with | `FN + .>` |
+| Layer 4 (puple LED), switch with | `FN + /?` |
+
+
+## Programming of layers 2-4:
+
+Default layer cannot be programmed
+
+
 * `FN + R_Ctrl`  (use `L_Ctrl` if `FN` has been reassigned already) -> second LED under space bar is now lit
 * hit `target key`, then: `new content` (can be up to 32 char), then: `PN` (second LED will blink while programming)
 * `FN + R_Ctrl` to exit programming -> second LED extinguishes
