@@ -1,4 +1,4 @@
-# POK3R keyboard programming
+# POK3R keyboard setup
 
 Here are notes on how to program your Pok3r keyboard.
 
@@ -6,6 +6,8 @@ You will find general instructions first and then more specific recipies after t
 
 ## General
 
+First understand how to reset everything to default, for the mess you'll make
+the first few times
 
 | Action | Key dance |
 | --- | --- |
@@ -40,7 +42,7 @@ The general recipe is as follows:
 
 | Step | Key Dance | Notes | Visual Feedback |
 | ---- | --------- | ------| ----------------|
-| 1    | `FN + R_Ctrl`  | use `L_Ctrl` if `FN` has been reassigned already | second LED under space bar is now lit |
+| 1    | `FN + R_Ctrl`  | Use `L_Ctrl` if `FN` has been reassigned already. Ignore this comment for now. | Second LED under space bar is now lit |
 | 2    |  `target key` | | |
 | 3    |  `new content` | can be up to 32 char | |
 | 4    |  `PN` | | second LED will blink while programming |
@@ -69,7 +71,8 @@ So I want vim keybindings everywhere. To support this I map:
 
 ### CapsLock always as Ctrl
 
-Follow from left to right
+Follow from left to right. Note you can do all the mappings seperated with `PN` between and
+`FN + R_Ctrl` at the begining and the end.
 
 | Start | Current   | New Key  | Program | Stop |
 | -- | ---  | ---     | ---      | ---     |
@@ -101,7 +104,11 @@ Follow from left to right
 
 ## <a name="move_FN"></a>Move FN to L_Ctrl
 
-HJKL as cursor keys are more ergonomical to reach by moving the FN to the left Ctrl key location
+HJKL as cursor keys are more ergonomical to reach by moving the FN to the left
+Ctrl key location. Getting to the ` key is also way easier. Navigating VIM
+history and PyCharm intellisence dialogs also works out of the box. ALthough its propably
+better to map them to natibe hjkl anyway, if you can.
+
 
 * Switch to Layer 2 (or 3, 4); this programming is per layer
 * Unplug keyboard
@@ -112,7 +119,7 @@ HJKL as cursor keys are more ergonomical to reach by moving the FN to the left C
 
 ## Good OSX Layer (Red)
 
-Below setup is reportedly good vir OSX users. I have have not tried it.
+Below setup is reportedly good vir OSX users. I have not tried it.
 
 `FN + .` to switch to Layer  3
 
@@ -134,7 +141,7 @@ Resulting programming
 ## Good Windows layer (Blue)
 
 Below setup is reportedly good vir Windows users. I would not know as I don't
-give a rat's arse about Windows.
+give a rat's arse about Windows, and neither should you.
 
 `FN + ,<` to switch to Layer 2
 
