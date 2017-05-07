@@ -1,6 +1,11 @@
 # POK3R keyboard programming
 
-## General POK3R programming info
+Here are notes on how to program your Pok3r keyboard.
+
+You will find general instructions first and then more specific recipies after that.
+
+## General POK3R programming
+
 
 | Action | Key dance |
 | --- | --- |
