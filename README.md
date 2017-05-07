@@ -1,6 +1,6 @@
 # POK3R keyboard setup
 
-Here are notes on how to program your Pok3r keyboard.
+Here are notes on how to program your Pok3r VTG-6100 keyboard.
 
 You will find general instructions first and then more specific recipies after that.
 
