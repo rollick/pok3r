@@ -74,7 +74,7 @@ The general recipe is as follows:
 |Vol-  | `FN + C` | `FN + ,<` | `PN`  |
 |Vol+  | `FN + V` | `FN + .>` | `PN`  |
 
-## <a name="Move_FN"></a>Move FN to L_Ctrl
+## <a name="move_FN"></a>Move FN to L_Ctrl
 
 HJKL as cursor keys are more ergonomical to reach by moving the FN to the left Ctrl key location
 
@@ -85,24 +85,13 @@ HJKL as cursor keys are more ergonomical to reach by moving the FN to the left C
 * DIP switch 4 back to OFF (no need to unplug)
 
 
-## Layer 2 (Blue) for Windows:
+## Good OSX Layer (Red)
 
-`FN + ,<` to switch to Layer 2
-* [Move FN to L_Ctrl](#Move_FN)
-* `FN + R_Ctrl` to enter programming
-* [Common bindings](#common_bindings)
-* `FN + R_Ctrl` to exit programming
-
-Resulting programming
-
-![Windows layout](img/layout-windows.png)
-
-
-## Layer 3 (Red) for OSX
+Below setup is reportedly good vir OSX users. I have have not tried it.
 
 `FN + .` to switch to Layer  3
 
-* [Move FN to L_Ctrl](#Move_FN)
+* [Move FN to L_Ctrl](#move_FN)
 * `FN + R_Ctrl` to enter programming
 * [Common bindings](#common_bindings)
 * Swap Cmd/Opt keys on both sides of space bar:
@@ -117,6 +106,21 @@ Resulting programming
 ![OSX layout](img/layout-osx.png)
 
 
+## Good Windows layer (Blue)
+
+Below setup is reportedly good vir Windows users. I would not know as I don't
+give a rat's arse about Windows.
+
+`FN + ,<` to switch to Layer 2
+
+* [Move FN to L_Ctrl](#Move_FN)
+* `FN + R_Ctrl` to enter programming
+* [Common bindings](#common_bindings)
+* `FN + R_Ctrl` to exit programming
+
+Resulting programming
+
+![Windows layout](img/layout-windows.png)
 
 ## Sources
 
