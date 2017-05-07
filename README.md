@@ -7,7 +7,11 @@
 | Factory reset | Hold both the left and right `ALT` keys |
 | Reset selected layer only |  `FN + R` until LED under spacebar stops flashing |
 
-[POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf)
+The [POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf) tells all, below is
+a reflow of that, and the original [David Jeni
+repo](https://github.com/davidjenni/pok3r-layouts) this was forked from. Review
+those if anything here is wrong or unclear. Also submit a PR, that would be
+appreciated.
 
 ## Layers 
 
