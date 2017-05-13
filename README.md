@@ -9,10 +9,10 @@ You will find general instructions first and then more specific recipies after t
 First understand how to reset everything to default, for the mess you'll make
 the first few times
 
-| Action | Key dance |
-| --- | --- |
-| Factory reset | Hold both the left and right `ALT` keys |
-| Reset selected layer only |  `FN + R` until LED under spacebar stops flashing |
+| Action                    | Key dance                                        |
+|---------------------------+--------------------------------------------------|
+| Factory reset             | Hold both the left and right `ALT` keys          |
+| Reset selected layer only | `FN + R` until LED under spacebar stops flashing |
 
 The [POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf) tells all, below is
 a reflow of that and the original [David Jeni
@@ -25,12 +25,12 @@ appreciated.
 The LED color signals the current key layer. The keys on the key dance are
 those printed on the key on top
 
-| Layer | Color   | Key dance   |
-| ---     | ---   | ---         |
-| Layer 1 |       | `FN + M`    |
-| Layer 2 | bue   | `FN + <`   |
-| Layer 3 | red   | `FN + >`   |
-| Layer 4 | purple | `FN + ?` |
+| Layer   | Color  | Key dance |
+|---------+--------+-----------|
+| Layer 1 |        | `FN + M`  |
+| Layer 2 | bue    | `FN + <`  |
+| Layer 3 | red    | `FN + >`  |
+| Layer 4 | purple | `FN + ?`  |
 
 
 ## Programming of layers
@@ -40,13 +40,13 @@ labelled on the keyboard, irrespective of any reassignments.
 
 The general recipe is as follows:
 
-| Step | Key Dance | Notes | Visual Feedback |
-| ---- | --------- | ------| ----------------|
-| 1    | `FN + R_Ctrl`  | Use `L_Ctrl` if `FN` has been reassigned already. Ignore this comment for now. | Second LED under space bar is now lit |
-| 2    |  `target key` | | |
-| 3    |  `new content` | can be up to 32 char | |
-| 4    |  `PN` | | second LED will blink while programming |
-| 5    |  `FN + R_Ctrl`  | to exit programming  | second LED extinguishes |
+| Step | Key Dance     | Notes                                             | Visual Feedback                         |
+| ---- | ---------     | ------                                            | ----------------                        |
+| 1    | `FN + R_Ctrl` | Use `L_Ctrl` if `FN` has been reassigned already. | Second LED under space bar is now lit   |
+| 2    | `target key`  |                                                   |                                         |
+| 3    | `new content` | can be up to 32 char                              |                                         |
+| 4    | `PN`          |                                                   | second LED will blink while programming |
+| 5    | `FN + R_Ctrl` | to exit programming                               | second LED extinguishes                 |
 
 Say I want to map key `i` on Layer 2 (Blue) to type my bank password, because
 that is a very smart thing to do, I would type the following:
@@ -74,10 +74,10 @@ So I want vim keybindings everywhere. To support this I map:
 Follow from left to right. Note you can do all the mappings seperated with `PN` between and
 `FN + R_Ctrl` at the begining and the end.
 
-| Start | Current   | New Key  | Program | Stop |
-| -- | ---  | ---     | ---      | ---     |
-| `FN + R_Ctrl` | `CapsLock`      | `L_Ctrl` | `PN` | `FN + R_Ctrl` |
-| `FN + R_Ctrl` | `FN + CapsLock` | `L_Ctrl` | `PN` | `FN + R_Ctrl` |
+| Start         | Current         | New Key  | Program | Stop          |
+|---------------+-----------------+----------+---------+---------------|
+| `FN + R_Ctrl` | `CapsLock`      | `L_Ctrl` | `PN`    | `FN + R_Ctrl` |
+| `FN + R_Ctrl` | `FN + CapsLock` | `L_Ctrl` | `PN`    | `FN + R_Ctrl` |
 
 ### Home
 
@@ -85,22 +85,22 @@ Follow from left to right. Note you can do all the mappings seperated with `PN` 
 
 ### Vim HJKL and Page Up/Down
 
-| Movement | Current   | New Key  | Program |
-| ----     | ---       | ---      | ---     |
-| Left     | `FN + H`  | `FN + J` | `PN` |
-| Down     | `FN + J`  | `FN + K` | `PN` |
-| Up       | `FN + K`  | `FN + I` | `PN` |
-| PgDown   | `FN + F`  | `FN + O` | `PN` |
-| PgUp     | `FN + B`  | `FN + U` | `PN` |
+| Movement | Current  | New Key  | Program |
+|----------+----------+----------+---------|
+| Left     | `FN + H` | `FN + J` | `PN`    |
+| Down     | `FN + J` | `FN + K` | `PN`    |
+| Up       | `FN + K` | `FN + I` | `PN`    |
+| PgDown   | `FN + F` | `FN + O` | `PN`    |
+| PgUp     | `FN + B` | `FN + U` | `PN`    |
 
 
 ### Volume controls
 
-| Volume | Current | New Key |
-| ----   | ----    | ----    |
-|Mute  | `FN + X` | `FN + /?` | `PN`  |
-|Vol-  | `FN + C` | `FN + ,<` | `PN`  |
-|Vol+  | `FN + V` | `FN + .>` | `PN`  |
+| Volume | Current  | New Key   | Program |
+|--------+----------+-----------+---------|
+| Mute   | `FN + X` | `FN + /?` | `PN`    |
+| Vol-   | `FN + C` | `FN + ,<` | `PN`    |
+| Vol+   | `FN + V` | `FN + .>` | `PN`    |
 
 ## <a name="move_FN"></a>Move FN to L_Ctrl
 
