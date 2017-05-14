@@ -23,7 +23,10 @@ appreciated.
 ## Switching Layers
 
 The LED color signals the current key layer. The keys on the key dance are
-those printed on the key on top
+those printed on the key on top, top being the printed glyphs closes to the screen.
+
+Press the <kbd>FN</kbd> and the layer key for a few seconds, until the 
+LED color changes.
 
 | Layer   | Color  | Key dance                  |
 | ---     | ---    | ---                        |
@@ -49,18 +52,18 @@ The general recipe is as follows:
 | 5    | <kbd>FN</kbd> + R<kbd>CTRL</kbd> | to exit programming                                                | second LED extinguishes                 |
 
 Say I want to map key <kbd>i</kbd> on Layer 2 (Blue) to type my bank password, because
-that's such a smart thing to do, I would type the following:
+that's to clever, I would type the following:
 
-<kbd>FN</kbd> R<kbd>CTRL</kbd> i PlzStealMyMoney <kbd>PN</kbd> <kbd>FN</kbd> + R<kbd>CTRL</kbd>
+<kbd>FN</kbd> R<kbd>CTRL</kbd> i NoMoreMoniezForYou <kbd>PN</kbd> <kbd>FN</kbd> + R<kbd>CTRL</kbd>
 
-Now, when Layer 2 is active (The blue led is lit) and I hit <kbd>i</kbd>, the keyboard
-types `PlzStealMyMoney`.
+Now, when Layer 2 is active (The blue LED is lit) and I hit <kbd>i</kbd>, the keyboard
+types `NoMoreMoniesForYou`.
 
 Below follows a few remappings that are generally usefull.
 
 ## <a name="common_bindings"></a>Common key bindings
 
-I use zsh in vim mode in the terminal, with any PyCharm, spacemancs, and vim.
+I use zsh in vim mode in the terminal, with PyCharm, spacemancs, and vim.
 So I want vim keybindings everywhere. To support this I map:
 
 * <kbd>CAPSLOCK</kbd> to <kbd>CTRL</kbd>
@@ -74,10 +77,10 @@ So I want vim keybindings everywhere. To support this I map:
 Follow from left to right. Note you can do all the mappings seperated with <kbd>PN</kbd> between and
 <kbd>FN</kbd> + R<kbd>CTRL</kbd> at the begining and the end.
 
-| Start                          | Current                           | New Key         | Program       | Stop                          |
-| ---                            | ---                               | ---             | ---           | ---                           |
-| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>CapsLock</kbd>               | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+R<kbd>CTRL<kbd> |
-| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>FN</kbd>+<kbd>CapsLock</kbd> | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+R<kbd>CTRL<kbd> |
+| Start                          | Current                           | New Key         | Program       | Stop                           |
+| ---                            | ---                               | ---             | ---           | ---                            |
+| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>CapsLock</kbd>               | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+R<kbd>CTRL</kbd> |
+| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>FN</kbd>+<kbd>CapsLock</kbd> | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+R<kbd>CTRL</kbd> |
 
 ### Home
 
