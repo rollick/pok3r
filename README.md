@@ -71,13 +71,13 @@ So I want vim keybindings everywhere. To support this I map:
 
 ### <kbd>CAPSLOCK</kbd> always as <kbd>CTRL</kbd> 
 
-Follow from left to right. Note you can do all the mappings seperated with `PN` between and
+Follow from left to right. Note you can do all the mappings seperated with <kbd>PN</kbd> between and
 `FN + R_Ctrl` at the begining and the end.
 
-| Start         | Current         | New Key  | Program | Stop          |
-| ---           | ---             | ---      | ---     | ---           |    
-| `FN + R_Ctrl` | `CapsLock`      | `L_Ctrl` | `PN`    | `FN + R_Ctrl` |
-| `FN + R_Ctrl` | `FN + CapsLock` | `L_Ctrl` | `PN`    | `FN + R_Ctrl` |
+| Start                          | Current                           | New Key         | Program       | Stop                           |
+| ---                            | ---                               | ---             | ---           | ---                            |
+| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>CapsLock<kbd>                | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+ R<kbd>CTRL<kbd> |
+| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>FN</kbd>+<kbd>CapsLock</kbd> | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+ R<kbd>CTRL<kbd> |
 
 ### Home
 
