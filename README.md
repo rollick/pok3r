@@ -25,12 +25,12 @@ appreciated.
 The LED color signals the current key layer. The keys on the key dance are
 those printed on the key on top
 
-| Layer   | Color  | Key dance |
-| ---     | ---    | ---       |
-| Layer 1 |        | `FN + M`  |
-| Layer 2 | bue    | `FN + <`  |
-| Layer 3 | red    | `FN + >`  |
-| Layer 4 | purple | `FN + ?`  |
+| Layer   | Color  | Key dance                  |
+| ---     | ---    | ---                        |
+| Layer 1 |        | <kbd>FN<kbd/>+<kbd>M<kbd/> |
+| Layer 2 | bue    | <kbd>FN<kbd/>+<kbd><<kbd/> |
+| Layer 3 | red    | <kbd>FN<kbd/>+<kbd>><kbd/> |
+| Layer 4 | purple | <kbd>FN<kbd/>+<kbd>?<kbd/> |
 
 
 ## Programming of layers
