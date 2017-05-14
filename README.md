@@ -9,9 +9,9 @@ You will find general instructions first and then more specific recipies after t
 First understand how to reset everything to default, for the mess you'll make
 the first few times
 
-| Action                    | Key dance                                                           |
-| ---                       | ---                                                                 |
-| Factory reset             | Hold both the left and right <kbd>ALT</kbd> keys                    |
+| Action                    | Key dance                                                            |
+| ---                       | ---                                                                  |
+| Factory reset             | Hold both the left and right <kbd>ALT</kbd> keys                     |
 | Reset selected layer only | <kbd>FN</kbd> + <kbd>R</kbd> until LED under spacebar stops flashing |
 
 The [POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf) tells all, below is
@@ -26,7 +26,7 @@ The LED color signals the current key layer. The keys on the key dance are
 those printed on the key on top
 
 | Layer   | Color  | Key dance |
-|---------+--------+-----------|
+| ---     | ---    | ---       |
 | Layer 1 |        | `FN + M`  |
 | Layer 2 | bue    | `FN + <`  |
 | Layer 3 | red    | `FN + >`  |
@@ -75,7 +75,7 @@ Follow from left to right. Note you can do all the mappings seperated with `PN` 
 `FN + R_Ctrl` at the begining and the end.
 
 | Start         | Current         | New Key  | Program | Stop          |
-|---------------+-----------------+----------+---------+---------------|
+| ---           | ---             | ---      | ---     | ---           |    
 | `FN + R_Ctrl` | `CapsLock`      | `L_Ctrl` | `PN`    | `FN + R_Ctrl` |
 | `FN + R_Ctrl` | `FN + CapsLock` | `L_Ctrl` | `PN`    | `FN + R_Ctrl` |
 
@@ -86,7 +86,7 @@ Follow from left to right. Note you can do all the mappings seperated with `PN` 
 ### Vim HJKL and Page Up/Down
 
 | Movement | Current  | New Key  | Program |
-|----------+----------+----------+---------|
+| ---      | ---      | ---      | --      |
 | Left     | `FN + H` | `FN + J` | `PN`    |
 | Down     | `FN + J` | `FN + K` | `PN`    |
 | Up       | `FN + K` | `FN + I` | `PN`    |
@@ -97,7 +97,7 @@ Follow from left to right. Note you can do all the mappings seperated with `PN` 
 ### Volume controls
 
 | Volume | Current  | New Key   | Program |
-|--------+----------+-----------+---------|
+| ---    | ---      | ---       | ---     |
 | Mute   | `FN + X` | `FN + /?` | `PN`    |
 | Vol-   | `FN + C` | `FN + ,<` | `PN`    |
 | Vol+   | `FN + V` | `FN + .>` | `PN`    |
