@@ -9,10 +9,10 @@ You will find general instructions first and then more specific recipies after t
 First understand how to reset everything to default, for the mess you'll make
 the first few times
 
-| Action                    | Key dance                                        |
-|---------------------------+--------------------------------------------------|
-| Factory reset             | Hold both the left and right `ALT` keys          |
-| Reset selected layer only | `FN + R` until LED under spacebar stops flashing |
+| Action                    | Key dance                                                     |
+| ---                       | ---                                                           |
+| Factory reset             | Hold both the left and right `ALT` keys                       |
+| Reset selected layer only | <kbd FN /> + <kbd R/> until LED under spacebar stops flashing |
 
 The [POK3R User Manual](files\POK3R.User.Manual.V1.5.pdf) tells all, below is
 a reflow of that and the original [David Jeni
