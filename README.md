@@ -40,18 +40,18 @@ labelled on the keyboard, irrespective of any reassignments.
 
 The general recipe is as follows:
 
-| Step | Key Dance                          | Notes                                                             | Visual Feedback                         |
-| ---- | ---------                          | ------                                                            | ----------------                        |
-| 1    | <kbd>FN</kbd> + R<kbd>Ctrl</kbd>  | Use L<kbd>CTRL</kbd> if <kbd>FN<kbd> has been reassigned already. | Second LED under space bar is now lit   |
-| 2    | <kbd>target key</kbd>              |                                                                   |                                         |
-| 3    | <kbd>new content</kbd>             | can be up to 32 char                                              |                                         |
-| 4    | <kbd>PN</kbd>                      |                                                                   | second LED will blink while programming |
-| 5    | <kbd>FN</kbd> + <kbd>FR_Ctrl</kbd> | to exit programming                                               | second LED extinguishes                 |
+| Step | Key Dance                        | Notes                                                              | Visual Feedback                         |
+| ---- | ---------                        | ------                                                             | ----------------                        |
+| 1    | <kbd>FN</kbd> + R<kbd>Ctrl</kbd> | Use L<kbd>CTRL</kbd> if <kbd>FN</kbd> has been reassigned already. | Second LED under space bar is now lit   |
+| 2    | <kbd>target key</kbd>            |                                                                    |                                         |
+| 3    | <kbd>new content</kbd>           | can be up to 32 char                                               |                                         |
+| 4    | <kbd>PN</kbd>                    |                                                                    | second LED will blink while programming |
+| 5    | <kbd>FN</kbd> + R<kbd>CTRL</kbd> | to exit programming                                                | second LED extinguishes                 |
 
 Say I want to map key <kbd>i</kbd> on Layer 2 (Blue) to type my bank password, because
 that's such a smart thing to do, I would type the following:
 
-<kbd>FN</kbd> <kbd>R_Ctl</kbd> i PlzStealMyMoney <kbd>PN</kbd> <kbd>FN</kbd> + <kbd>R_Ctl</kbd>
+<kbd>FN</kbd> R<kbd>CTRL</kbd> i PlzStealMyMoney <kbd>PN</kbd> <kbd>FN</kbd> + R<kbd>CTRL</kbd>
 
 Now, when Layer 2 is active (The blue led is lit) and I hit <kbd>i</kbd>, the keyboard
 types `PlzStealMyMoney`.
@@ -63,13 +63,13 @@ Below follows a few remappings that are generally usefull.
 I use zsh in vim mode in the terminal, with any PyCharm, spacemancs, and vim.
 So I want vim keybindings everywhere. To support this I map:
 
-* capslock to Ctrl
-* map the arrow keys (Printed on the jkli keys) to the standard hjkl keys
-* map the `FN` key to Left Control (bottom leftmost key) to allow arrow keys in things
+* <kbd>CAPSLOCK</kbd> to <kbd>CTRL</kbd>
+* Map the arrow keys (Printed on the jkli keys) to the standard hjkl keys
+* map the <kbd>FN</kbd> key to L<kbd>CTRL</kbd> (bottom leftmost key) to allow arrow keys in things
   Like PyCharm.
 
 
-### CapsLock always as Ctrl
+### <kbd>CAPSLOCK</kbd> always as <kbd>CTRL</kbd> 
 
 Follow from left to right. Note you can do all the mappings seperated with `PN` between and
 `FN + R_Ctrl` at the begining and the end.
