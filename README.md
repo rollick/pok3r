@@ -72,12 +72,12 @@ So I want vim keybindings everywhere. To support this I map:
 ### <kbd>CAPSLOCK</kbd> always as <kbd>CTRL</kbd> 
 
 Follow from left to right. Note you can do all the mappings seperated with <kbd>PN</kbd> between and
-`FN + R_Ctrl` at the begining and the end.
+<kbd>FN</kbd> + R<kbd>CTRL</kbd> at the begining and the end.
 
-| Start                          | Current                           | New Key         | Program       | Stop                           |
-| ---                            | ---                               | ---             | ---           | ---                            |
-| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>CapsLock<kbd>                | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+ R<kbd>CTRL<kbd> |
-| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>FN</kbd>+<kbd>CapsLock</kbd> | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+ R<kbd>CTRL<kbd> |
+| Start                          | Current                           | New Key         | Program       | Stop                          |
+| ---                            | ---                               | ---             | ---           | ---                           |
+| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>CapsLock</kbd>               | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+R<kbd>CTRL<kbd> |
+| <kbd>FN</kbd>+R<kbd>CTRL</kbd> | <kbd>FN</kbd>+<kbd>CapsLock</kbd> | <kbd>CTRL</kbd> | <kbd>PN</kbd> | <kbd>FN</kbd>+R<kbd>CTRL<kbd> |
 
 ### Home
 
