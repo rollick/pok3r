@@ -42,7 +42,7 @@ The general recipe is as follows:
 
 | Step | Key Dance                          | Notes                                                             | Visual Feedback                         |
 | ---- | ---------                          | ------                                                            | ----------------                        |
-| 1    | <kbd>FN</kbd> + <kbd>R_Ctrl</kbd>  | Use <kbd>L_Ctrl<kbd> if <kbd>FN<kbd> has been reassigned already. | Second LED under space bar is now lit   |
+| 1    | <kbd>FN</kbd> + R<kbd>Ctrl</kbd>  | Use L<kbd>CTRL</kbd> if <kbd>FN<kbd> has been reassigned already. | Second LED under space bar is now lit   |
 | 2    | <kbd>target key</kbd>              |                                                                   |                                         |
 | 3    | <kbd>new content</kbd>             | can be up to 32 char                                              |                                         |
 | 4    | <kbd>PN</kbd>                      |                                                                   | second LED will blink while programming |
@@ -53,8 +53,8 @@ that's such a smart thing to do, I would type the following:
 
 <kbd>FN</kbd> <kbd>R_Ctl</kbd> i PlzStealMyMoney <kbd>PN</kbd> <kbd>FN</kbd> + <kbd>R_Ctl</kbd>
 
-Now, when Layer 2 is active (The blue led is lit) and I hit <kbd>i`, the keyboard
-types <kbd>PlzStealMyMoney`.
+Now, when Layer 2 is active (The blue led is lit) and I hit <kbd>i</kbd>, the keyboard
+types `PlzStealMyMoney`.
 
 Below follows a few remappings that are generally usefull.
 
