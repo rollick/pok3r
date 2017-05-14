@@ -27,10 +27,10 @@ those printed on the key on top
 
 | Layer   | Color  | Key dance                  |
 | ---     | ---    | ---                        |
-| Layer 1 |        | <kbd>FN<kbd/>+<kbd>M<kbd/> |
-| Layer 2 | bue    | <kbd>FN<kbd/>+<kbd><<kbd/> |
-| Layer 3 | red    | <kbd>FN<kbd/>+<kbd>><kbd/> |
-| Layer 4 | purple | <kbd>FN<kbd/>+<kbd>?<kbd/> |
+| Layer 1 |        | <kbd>FN</kbd>+<kbd>M</kbd> |
+| Layer 2 | bue    | <kbd>FN</kbd>+<kbd><</kbd> |
+| Layer 3 | red    | <kbd>FN</kbd>+<kbd>></kbd> |
+| Layer 4 | purple | <kbd>FN</kbd>+<kbd>?</kbd> |
 
 
 ## Programming of layers
