@@ -40,21 +40,21 @@ labelled on the keyboard, irrespective of any reassignments.
 
 The general recipe is as follows:
 
-| Step | Key Dance     | Notes                                             | Visual Feedback                         |
-| ---- | ---------     | ------                                            | ----------------                        |
-| 1    | `FN + R_Ctrl` | Use `L_Ctrl` if `FN` has been reassigned already. | Second LED under space bar is now lit   |
-| 2    | `target key`  |                                                   |                                         |
-| 3    | `new content` | can be up to 32 char                              |                                         |
-| 4    | `PN`          |                                                   | second LED will blink while programming |
-| 5    | `FN + R_Ctrl` | to exit programming                               | second LED extinguishes                 |
+| Step | Key Dance                          | Notes                                                             | Visual Feedback                         |
+| ---- | ---------                          | ------                                                            | ----------------                        |
+| 1    | <kbd>FN</kbd> + <kbd>R_Ctrl</kbd>  | Use <kbd>L_Ctrl<kbd> if <kbd>FN<kbd> has been reassigned already. | Second LED under space bar is now lit   |
+| 2    | <kbd>target key</kbd>              |                                                                   |                                         |
+| 3    | <kbd>new content</kbd>             | can be up to 32 char                                              |                                         |
+| 4    | <kbd>PN</kbd>                      |                                                                   | second LED will blink while programming |
+| 5    | <kbd>FN</kbd> + <kbd>FR_Ctrl</kbd> | to exit programming                                               | second LED extinguishes                 |
 
-Say I want to map key `i` on Layer 2 (Blue) to type my bank password, because
-that is a very smart thing to do, I would type the following:
+Say I want to map key <kbd>i</kbd> on Layer 2 (Blue) to type my bank password, because
+that's such a smart thing to do, I would type the following:
 
-`FN + R_Ctl` i PlzStealMyMoney `PN` `FN + R_Ctl`
+<kbd>FN</kbd> <kbd>R_Ctl</kbd> i PlzStealMyMoney <kbd>PN</kbd> <kbd>FN</kbd> + <kbd>R_Ctl</kbd>
 
-Now, when Layer 2 is active (The blue led is lit) and I hit `i`, the keyboard
-types `PlzStealMyMoney`.
+Now, when Layer 2 is active (The blue led is lit) and I hit <kbd>i`, the keyboard
+types <kbd>PlzStealMyMoney`.
 
 Below follows a few remappings that are generally usefull.
 
