@@ -25,7 +25,9 @@ appreciated.
 The LED color signals the current key layer. The keys on the key dance are
 those printed on the key on top, top being the printed glyphs closes to the screen.
 
-Press the <kbd>FN</kbd> and the layer key for a few seconds, until the 
+Press the <kbd>FN</kbd> and the layer key and release, on release the colour
+should change and the keyboard layer selected.
+
 LED color changes.
 
 | Layer   | Color  | Key dance                  |
@@ -52,7 +54,7 @@ The general recipe is as follows:
 | 5    | <kbd>FN</kbd> + R<kbd>CTRL</kbd> | to exit programming                                                | second LED extinguishes                 |
 
 Say I want to map key <kbd>i</kbd> on Layer 2 (Blue) to type my bank password, because
-that's to clever, I would type the following:
+that's si very clever, I would type the following:
 
 <kbd>FN</kbd> R<kbd>CTRL</kbd> i NoMoreMoniezForYou <kbd>PN</kbd> <kbd>FN</kbd> + R<kbd>CTRL</kbd>
 
