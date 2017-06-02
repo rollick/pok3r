@@ -9,7 +9,7 @@ You will find general instructions first and then more specific recipies after t
 First understand how to reset everything to default, for the mess you'll make
 the first few times
 
-| Action                    | Key dance                                                            |
+| Action                    | Chord:                                                               |
 | ---                       | ---                                                                  |
 | Factory reset             | Hold both the left and right <kbd>ALT</kbd> keys                     |
 | Reset selected layer only | <kbd>FN</kbd> + <kbd>R</kbd> until LED under spacebar stops flashing |
@@ -30,7 +30,7 @@ should change and the keyboard layer selected.
 
 LED color changes.
 
-| Layer   | Color  | Key dance                  |
+| Layer   | Color  | Chord                      |
 | ---     | ---    | ---                        |
 | Layer 1 |        | <kbd>FN</kbd>+<kbd>M</kbd> |
 | Layer 2 | bue    | <kbd>FN</kbd>+<kbd><</kbd> |
@@ -45,7 +45,7 @@ labelled on the keyboard, irrespective of any reassignments.
 
 The general recipe is as follows:
 
-| Step | Key Dance                        | Notes                                                              | Visual Feedback                         |
+| Step | Chord                            | Notes                                                              | Visual Feedback                         |
 | ---- | ---------                        | ------                                                             | ----------------                        |
 | 1    | <kbd>FN</kbd> + R<kbd>Ctrl</kbd> | Use L<kbd>CTRL</kbd> if <kbd>FN</kbd> has been reassigned already. | Second LED under space bar is now lit   |
 | 2    | <kbd>target key</kbd>            |                                                                    |                                         |
