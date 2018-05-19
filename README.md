@@ -23,7 +23,7 @@ appreciated.
 ## Switching Layers
 
 The LED color signals the current key layer. The keys on the key dance are
-those printed on the key on top, top being the printed glyphs closes to the screen.
+those printed on the key on top, top being the printed glyphs closest to the screen.
 
 Press the <kbd>FN</kbd> and the layer key and release, on release the colour
 should change and the keyboard layer selected.
