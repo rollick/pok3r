@@ -88,8 +88,10 @@ Follow from left to right. Note you can do all the mappings seperated with <kbd>
 
 `FN + I` then: `FN + H` then: `PN`
 
-### Swap ESC and \`/~:
+### Swap ESC and \`/~
+
 `FN + ESC` then: `ESC` then: `PN`
+
 `ESC` then: `FN + ESC` then: `PN`
 
 ### Vim HJKL and Page Up/Down
